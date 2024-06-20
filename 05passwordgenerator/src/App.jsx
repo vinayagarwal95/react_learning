@@ -29,7 +29,6 @@ function App() {
     setPassword(charSet)
   }, [length, numberAllowed, charAllowed])
 
-
   useEffect(() => {
     generatePassword()
   }, [length, numberAllowed, charAllowed])
